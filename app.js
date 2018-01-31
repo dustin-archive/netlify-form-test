@@ -7,9 +7,7 @@ const actions = {}
 
 const view = (state, actions) =>
   h('div', null, [
-    h('form', {
-      id: 'form'
-    }, [
+    h('form', { id: 'form' }, [
       h('input', { type: 'hidden', name: 'form-name', value: 'info' }),
       h('input', { type: 'text', name: 'name' }),
       h('input', { type: 'tel', name: 'phone' }),
